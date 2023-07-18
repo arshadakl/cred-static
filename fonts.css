@@ -1,0 +1,16 @@
+@font-face {
+    font-family: credReg;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: credsemi;
+    src: url(fonts/Gilroy-SemiBold.ttf);
+}
+@font-face {
+    font-family: credbold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: credexbold;
+    src: url(fonts/Gilroy-ExtraBold.ttf);
+}

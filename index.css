@@ -1,0 +1,643 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+h1{
+    margin: 0;
+}
+.main-display-sec{
+    background-image: url(images/hero-bg.webp);
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-section{
+    width: 80%;
+    height: 190px;
+    /* background-color: rgb(73, 73, 73); */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-sec img{
+    width: 49px;
+    position: relative;
+    left: 50px;
+
+
+}
+.logo-sec, .nav-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-txt{
+    position: relative;
+    right: 40px;
+}
+.nav-txt p{
+    padding-left: 50px;
+    font-family: credsemi;
+    font-size: 18px;
+    line-height: 36px;
+    opacity: 0.8;
+    letter-spacing: -0.1px;
+    color: rgb(255, 255, 255);
+}
+.display-sec{
+    width: 100%;
+    height: 625px;
+    /* background-color: red; */
+    background-image: url(images/hero-bg.webp);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.main-dis-txt{
+    width: 80%;
+    height: 200px;
+    /* background-color: red; */
+    text-align: center;
+    color: #fff;
+    margin-top: 41px;
+}
+.main-dis-txt h1{
+    font-size: 106px;
+    font-family: credbold;
+    line-height: 124px;
+    letter-spacing: -4.5px;
+}
+.main-dis-txt h2{
+    font-size: 30px;
+    font-family: credbold;
+    letter-spacing: -1px;
+}
+.main-dis-txt button{
+    font-size: 22px;
+    font-family: credexbold;
+    /* letter-spacing: -1px; */
+    width: 19rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 5rem;
+    margin-top: 30px;
+}
+.ani-dis-area{
+    width: 100%;
+    height: 820px;
+    background-color: red;
+    background-image: url(images/sec-two-video-bg.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.ani-imgs{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* imagesss */
+.ani-imgs img{
+    width: 30%;
+   
+    position: relative;
+}
+
+.img-center{
+    bottom: 10px;
+    z-index: 2;
+}
+.img-right1{
+    right: 200px;
+    top: 67px;
+    z-index: 1;
+}
+.img-left1{
+    left: 200px;
+    top: 67px;
+    z-index: 1;
+}
+.img-left2{
+    left: 400px;
+    top: 145px;
+}
+.img-right2{
+    right: 400px;
+    top: 145px;
+}
+
+/* roas */
+
+.rose-sec{
+    width: 100%;
+    min-height: 800px;
+    /* background-color: red; */
+    z-index: 9;
+    background-image: url(images/deserve-more-bg.webp);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rose-sub1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+}
+.rose-sub1 h1{
+    font-size: 100px;
+    font-family: credbold;
+    line-height: 100px;
+    margin: 0;
+}
+.rose-sub1 h2{
+    font-size: 32px;
+    font-family: credbold;
+    line-height: 100px;
+    margin: 0;
+}
+.rose-sub2{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+    position: relative;
+    bottom: 48px;
+    
+}
+.rose-sub2 p{
+    width: 58%;
+    font-family: credsemi;
+    font-size: 18px;
+}
+.rose-sub2 button{
+    width: 330px;
+    height: 70px;
+    border-radius: 5rem;
+    border: none;
+    font-size: 22px;
+    font-family: credbold;
+    position: relative;
+    margin-top: 28px;
+}
+/* breands area css */
+
+.brands-area{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.brand-txt{
+    width: 75%;
+    font-size: 30px;
+    font-size: 24px;
+    font-family: credsemi;
+
+}
+.brand-logos{
+    /* margin-top:30px; */
+    width: 75%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-logos img{
+    width: 100%;
+}
+/* money matter */
+
+.money-matter-area{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/money-matters-bg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.money-matter-txt{
+    display: flex;
+    align-items: start;
+    width: 75%;
+    color: #fff;
+    flex-direction: column;
+}
+.money-matter-txt h1{
+    font-size: 100px;
+    font-family: credbold;
+    letter-spacing: -3px;
+    line-height: 100px;
+}
+.money-matter-txt h2{
+    font-size: 32px;
+    font-family: credbold;
+    line-height: 100px;
+    margin: 0;
+}
+.money-sub2{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 75%;
+    position: relative;
+    bottom: 48px;
+}
+.money-sub2 p{
+    width: 58%;
+    font-family: credsemi;
+    font-size: 18px;
+}
+.money-sub2 button{
+    width: 330px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 5rem;
+    border: none;
+    font-family: credbold;
+
+}
+/* sectionn black  */
+
+.black-area{
+    width: 100%; 
+    min-height: 3000px;
+    background-color: #000;
+    display: flex;
+    /* justify-content: flex-start; */
+}
+/* .mob-screen{
+    position: sticky;
+    top: 10px;
+    bottom: 20px;
+    width: 300px;
+    height: 650px;
+    box-shadow: rgba(250, 250, 255, 0.16) 0px -5px 6px 0px inset, rgba(38, 37, 37, 0.24) 4px 6px 11px 1px inset;
+    border-radius: 46px;
+    padding: 16px 14px;
+    margin-bottom: 77px;
+    
+} */
+.mob-screen img{
+    overflow: hidden;
+    width: 100%;
+}
+/* .black-txts{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+} */
+.mob-screen-area{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* padding-top: 20px; */
+    /* align-items: center; */
+    /* background-color: rgb(134, 65, 65); */
+}
+/*  */
+.mob-imges{
+    
+    background-image: url(images/mob-screen-teest2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* display: flex; */
+    background-color: #000;
+    /* margin-bottom: 77px; */
+}
+.mob-imges img{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+
+}
+.black-txts{
+    width: 50%;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.black-1-txt{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 80px;
+    /* background-color: red; */
+    flex-direction: column;
+}
+.black-2-txt{
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    /* background-color: red; */
+    flex-direction: column;
+}
+.black-1-txt,.black-2-txt p{
+    color: #fff;
+    font-size: 20px;
+    font-family: credsemi
+}
+.black-txts h1{
+    color: #fff;
+    font-size: 90px;
+    font-family: credbold;
+}
+.attachid-bg-area{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.dog-bg-area{
+    width: 100%;
+    min-height: 800px;
+    background-color: rgb(85, 14, 183);
+    background-image: url(images/security-bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dog-bg{
+    width: 75%;
+    height: 500px;
+    /* background-color: red; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+.dog-bg h1{
+    margin: 0;
+    font-size: 100px;
+    font-family: credbold;
+    letter-spacing: -3px;
+    line-height: 100px;
+}
+.dog-bg h2{
+    margin: 20px 0 0 0;
+    font-size: 32px;
+    font-family: credbold;
+}
+.dog-bg p{
+    width: 58%;
+    font-size: 18px;
+    font-family: credsemi;
+    margin: 0;
+}
+.dog-bg button{
+    width: 320px;
+    border: none;
+    height: 65px;
+    border-radius: 5rem;
+    font-size: 22px;
+    margin: 20px 0 0 0;
+    font-family: credbold;
+
+}
+/* greeen */
+.green-area{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/trust-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green-sub2,.green-sub1{
+    width: 35%;
+    height: 50%;
+    /* background-color: rgb(172, 159, 159); */
+    display: flex;
+    color: #fff;
+}
+.green-sub1{
+    align-items: end;
+}
+.green-sub1 h1{
+    font-size: 60px;
+    font-family: credbold;
+    line-height: 64px;
+    letter-spacing: -3px;
+}
+.green-sub2{
+    flex-direction: column;
+    justify-content: end;
+}
+.green-sub2 p{
+    font-size: 18px;
+    font-family:credsemi;
+    margin: 22px 0 0 0;
+}
+/* app stores area css */
+.app-stores-area{
+    width: 100%;
+    height: 800px;
+    /* background-color: #000; */
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.app-area {
+    width: 60%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.play-store,.app-store{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;;
+}
+.store-sub h1{
+    font-size: 150px;
+    font-family: credbold;
+    margin: 0;
+}
+.store-sub{
+    display: flex;
+    width: 60%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.store-sub h2{
+    font-size: 60px;
+    font-family: credbold;
+    line-height: 55px;
+    opacity: 0.8;
+    margin: 0;
+    margin-left: 30px;
+}
+.play-store img{
+    width: 40%;
+}
+.play-store button{
+     width: 300px;
+     height: 70px;
+     border: none;
+     border-radius: 5rem;
+     font-size: 20px;
+     font-family: credbold;
+     margin: 30px 0 0 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+.play-store button img{
+    width: 10%;
+    position: relative;
+    right: 10px; 
+}
+.quat-area{
+    width: 50%;
+    height: 200px;
+    /* background-color: #017856; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.quat-area p{
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: credreg;
+}
+.quat-area span{
+    color: #ffff;
+    font-size: 18px;
+    font-family: credreg;
+    opacity: 0.7;
+}
+.about-sec{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 410px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.about-txt{
+    width: 75%;
+    margin-top: 50px;
+}
+.about-sec h1{
+    color: #fff;
+    font-family: credsemi;
+    font-size: 18px;
+}
+.about-sec p{
+    color: #fff;
+    font-family: credreg;
+    font-size: 20px;
+    opacity: 0.8;
+    line-height: 30px;
+}
+.about-sec hr{
+    opacity: 0.2;
+    margin: 60px 0 40px 0;
+}
+.about-txt div{
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-txt h3{
+    color: #fff;
+    font-family: credsemi;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.about-txt p{
+    color: #fff;
+    font-family: credreg;
+    font-size: 16px;
+}
+/* footer styles */
+.footer-area{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(22, 21, 23);
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-logo,.products{
+    width: 30%;
+    height: 60%;
+    /* background-color: red; */
+    margin: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}.products{
+    width: 15%;
+}
+.foot-logo{
+    justify-content:space-between;
+}
+.foot-logo img:first-child{
+    width: 40%;
+}
+.products{
+    color: #fff;
+    display: flex;
+}
+.products h1{
+    font-size: 20px;
+    font-family: credbold;
+}
+.products p{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    font-family: credreg;
+    opacity: 0.8;
+}
